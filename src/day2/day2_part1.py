@@ -23,7 +23,7 @@ def id(filename):
             
             if first_num == second_num:
                 number = str(first_num) + str(second_num)
-                print(number)
+                #print(number) 
                 total += int(number)
     
     return f"the total sum of your id's is {total}"
@@ -31,4 +31,4 @@ def id(filename):
         
 
 
-print(id("src/day2/test_day2.txt"))
+print(id("src/day2/day2.txt"))
