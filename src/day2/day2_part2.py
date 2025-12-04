@@ -1,5 +1,9 @@
 import math
 
+"""
+I did not solve part 2 of day 2. I was, but I ran out of time!
+
+"""
 
 def id(filename):
     with open(filename, "r") as file:
