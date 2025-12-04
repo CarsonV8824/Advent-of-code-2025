@@ -66,14 +66,14 @@ def staircase(filename):
         
         else:
             for index, s_num in enumerate(big_num):
-                if (int(s_num) > int(second_num)) and (int(s_num) < first_num) and (first_num_index < index):
+                if (int(s_num) > int(second_num)) and (int(s_num) <= first_num) and (first_num_index < index):
                     second_num = int(s_num)
                     second_num_index = int(index)
 
         
         sum_of_numbers += int(str(first_num) + str(second_num))
         list_of_values.append(str(first_num) + str(second_num))
-    print(len(list_of_values))
+    print((list_of_values))
     return sum_of_numbers
             
         
